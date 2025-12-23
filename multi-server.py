@@ -1,4 +1,4 @@
-#Modified vesrison of the software from - https://github.com/FaheemAlvii/iptablesgui-remote
+#Modified version of the software from - https://github.com/FaheemAlvii/iptablesgui-remote
 #Thanks to FaheemAlvii for the original work.
 
 
