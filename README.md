@@ -2,6 +2,7 @@
 
 # Modified version of the software from - https://github.com/FaheemAlvii/iptablesgui-remote
  Thanks to FaheemAlvii for the original work.
+ 
  Added the ability for using ppk keys for authentication instead of passwords.
 
 # iptablesgui-remote
@@ -11,9 +12,7 @@ Remotely Manage your IPTables using GUI based on ssh connection.
 2. pip3 install -r requirements.txt
 3. Open multi-server.py and add Servers in this format:
       SERVERS = [
-          {'name': 'Server 1', 'host': 'yourserverip', 'username': 'root', 'password': 'serverpass'},
-          {'name': 'Server 2', 'host': 'yourserverip', 'username': 'root', 'password': 'serverpass'},
-          {'name': 'Server 3', 'host': 'yourserverip', 'username': 'root', 'password': 'serverpass'}
+          {'name': 'ServerName', 'host': 'ipadress', 'port': 22, 'username': 'root', 'key_filename': 'filename.ppk'},
       ]
 
 4. python multi-server.py | python3 multi-server.py
