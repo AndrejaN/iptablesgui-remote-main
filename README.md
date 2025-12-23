@@ -11,6 +11,7 @@ Remotely Manage your IPTables using GUI based on ssh connection.
 1. Make Sure Python3 is installed
 2. pip3 install -r requirements.txt
 3. Open multi-server.py and add Servers in this format:
+      
       SERVERS = [
           {'name': 'ServerName', 'host': 'ipadress', 'port': 22, 'username': 'root', 'key_filename': 'filename.ppk'},
       ]
